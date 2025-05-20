@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="section">
+    <h2>Contact</h2>
+    <form method="post" action="#" style="max-width:400px;margin:auto;">
+        <div style="margin-bottom:1rem;">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" style="width:100%;padding:0.5rem;">
+        </div>
+        <div style="margin-bottom:1rem;">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" style="width:100%;padding:0.5rem;">
+        </div>
+        <div style="margin-bottom:1rem;">
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" style="width:100%;padding:0.5rem;"></textarea>
+        </div>
+        <button type="submit" class="button">Send</button>
+    </form>
+</div>
+{% endblock %} 

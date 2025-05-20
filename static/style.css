@@ -1,0 +1,109 @@
+body {
+    background: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #1a1a1a;
+    border-bottom: 1px solid #00ff00;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ff0000;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+h1, h2, h3 {
+    font-family: 'Share Tech Mono', monospace;
+    color: #00ff00;
+}
+.hero {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ff00;
+}
+.hero-title .blue {
+    color: #00ffff;
+}
+.hero-title .green {
+    color: #00ff00;
+}
+.hero-desc {
+    color: #00ffff;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.button {
+    background: #00ff00;
+    color: #0a0a0a;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+.button:hover {
+    background: #00ffff;
+    color: #0a0a0a;
+}
+.section {
+    margin-bottom: 3rem;
+}
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.skill-card {
+    background: #1a1a1a;
+    border: 1px solid #00ff00;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #00ff00;
+    transition: border 0.2s;
+}
+.skill-card:hover {
+    border: 1.5px solid #00ffff;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00ff00;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+.small-text {
+    font-size: 0.6em;  /* This will make the text 60% of its parent's font size */
+    vertical-align: middle;
+} 
